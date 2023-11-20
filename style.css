@@ -1,0 +1,271 @@
+/* Css Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main styling */
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 0.3rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* Utility classes */
+.container {
+  margin: auto;
+  max-width: 156rem;
+  overflow: auto;
+  padding: 0 1.25rem;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #333;
+  padding: 0.8rem 1.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+  transition: 1s;
+}
+
+.l-heading {
+  font-size: 2.5rem;
+}
+
+/* Padding */
+.py-1 { padding: 0.6rem 0; }
+.py-2 { padding: 1.25rem 0; }
+.py-3 { padding: 1.8rem 0; }
+
+/* Navbar */
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 1.2rem;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+  background: url('image-resources/image_resources/showcase.jpg') no-repeat center center/cover;
+  height: 37.5rem;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 10.6rem;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 3.75rem;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 1.25rem;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 37.5rem;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('image-resources/image_resources/best-dog-boarding-barkley.jpg') center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 3.1rem 1.9rem;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 1.9rem;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 3.1rem;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 0.6rem;
+}
+
+/*About info*/
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 37.5rem;
+  background: url('image-resources/image_resources/test-bg.jpg') no-repeat center center/cover;
+  padding: 6.25rem;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+#testimonials .testimonial {
+  padding: 1.25rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.3rem;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 6.25rem;
+  float: left;
+  margin-right: 1.2rem;
+  border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+#contact-form input,
+#contact-form textarea  {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 12.5rem;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+} 
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 1.25rem;
+}
+
